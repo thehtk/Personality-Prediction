@@ -99,8 +99,8 @@ def main():
     <h4 align="left">Section F<h4>
     """
     st.markdown(html_tempF, unsafe_allow_html=True)
-    pen1 = Image.open(r'C:\Users\Hp\OneDrive\Projects\personality\Image\pen1.jpg')
-    pen2 = Image.open(r'C:\Users\Hp\OneDrive\Projects\personality\Image\pen2.jpg')
+    pen1 = Image.open(r'pen1.jpg')
+    pen2 = Image.open(r'pen2.jpg')
     pen3 = Image.open(r'C:\Users\Hp\OneDrive\Projects\personality\Image\pen3.jpg')
     pen4 = Image.open(r'C:\Users\Hp\OneDrive\Projects\personality\Image\pen4.jpg')
     st.image([pen1,pen2,pen3,pen4],width=288)
