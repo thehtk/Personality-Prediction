@@ -2,6 +2,5 @@ numpy
 pandas
 scikit-learn
 
-pickle
-altair
+
 streamlit
