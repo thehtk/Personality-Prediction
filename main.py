@@ -26,7 +26,7 @@ import numpy as np
 import time
 from PIL import Image
 import sklearn.preprocessing as pre
-import plotly.figure_factory as ff
+
 
 def predict_forest(gender_code,age,ope,neu,con, agr,ext):
     input=np.array([[gender_code,age,ope,neu,con, agr,ext]]).astype(np.float64)
