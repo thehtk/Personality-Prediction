@@ -118,17 +118,17 @@ def main():
     <h4 align="left">Section F<h4>
     """
     st.markdown(html_tempF, unsafe_allow_html=True)
-    pen1 = Image.open(r'C:\Users\Hp\OneDrive\Projects\personality\Image\pen1.jpg')
-    pen2 = Image.open(r'C:\Users\Hp\OneDrive\Projects\personality\Image\pen2.jpg')
-    pen3 = Image.open(r'C:\Users\Hp\OneDrive\Projects\personality\Image\pen3.jpg')
-    pen4 = Image.open(r'C:\Users\Hp\OneDrive\Projects\personality\Image\pen4.jpg')
+    pen1 = Image.open(r'pen1.jpg')
+    pen2 = Image.open(r'pen2.jpg')
+    pen3 = Image.open(r'pen3.jpg')
+    pen4 = Image.open(r'pen4.jpg')
     st.image([pen1,pen2,pen3,pen4],width=288)
     pen_intput= st.radio('How you hold pen ',[1,2,3,4])
     
-    stand1 = Image.open(r'C:\Users\Hp\OneDrive\Projects\personality\Image\stand1.jpg')
-    stand2 = Image.open(r'C:\Users\Hp\OneDrive\Projects\personality\Image\stand2.jpg')
-    stand3 = Image.open(r'C:\Users\Hp\OneDrive\Projects\personality\Image\stand3.jpg')
-    stand4 = Image.open(r'C:\Users\Hp\OneDrive\Projects\personality\Image\stand4.jpg')
+    stand1 = Image.open(r'stand1.jpg')
+    stand2 = Image.open(r'stand2.jpg')
+    stand3 = Image.open(r'stand3.jpg')
+    stand4 = Image.open(r'stand4.jpg')
     st.image([stand1,stand2,stand3,stand4],width=150)
     stand_intput= st.radio('How you mostly stand ',[1,2,3,4])
     
